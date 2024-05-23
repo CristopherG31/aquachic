@@ -1,0 +1,201 @@
+/* Opiniones Styles */
+.opiniones {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.opiniones h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.opinion {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.opinion h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.opinion p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.opinion span {
+    font-size: 1.5em;
+    color: gold;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(204, 177, 177);
+  }
+  header {
+    display: flex;
+    background-color: rgb(112, 112, 158);
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 1em;
+    padding: 0%;
+    background-color: rgb(68, 53, 53);
+  }
+  
+  header a {
+    color: rgb(66, 21, 21);
+    font-size: 1em;
+    padding: 1em;
+  }
+  #footer {
+    padding: 1em;
+  }
+  
+  .pie-de-pagina {
+    color: rgb(56, 160, 15);
+  }
+  #encab ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(88, 78, 78);
+    text-align: center;
+  
+    top: 80px;
+    left: 100%;
+    transition: all 0.5s;
+  }
+  #encab nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  #encab nav ul li a {
+    font-size: 20px;
+  }
+  @media (max-width: 768px) {
+    header nav ul {
+      display: flex;
+      gap: 1em;
+      padding: 0%;
+      background-color: rgb(129, 6, 6);
+      color: white;
+    }
+  }
+  @media (max-width: 768px) {
+    #encab {
+      display: flex;
+      background-color: rgb(72, 72, 136);
+      align-items: center;
+      justify-content: space-between;
+      padding: 1em;
+    }
+  }
+  @media (max-width: 768px) {
+    #encab ul {
+      position: fixed;
+      width: 50%;
+      height: 102vh;
+      background-color: blueviolet;
+      text-align: center;
+  
+      top: 80px;
+      left: 100%;
+      transition: all 0.5s;
+    }
+  }
+  #check {
+    display: none;
+  }
+  
+  .checkbtn {
+    font-size: 25px;
+    color: red;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .checkbtn {
+    display: block;
+  }
+  #check:checked ~ ul {
+    left: 0%;
+    display: block;
+  }
+  .titulo_seccion:hover {
+    position: relative;
+    font-size: 40px;
+    color: #8f5a2c;
+    text-align: center;
+  }
+  .container:hover {
+    max-width: 100em; /* Define el ancho máximo del contenedor */
+    margin: 1rem; /* Centra el contenedor horizontalmente */
+    padding: 1em; /* Agrega un poco de espacio alrededor del formulario */
+    border: solid rgb(53, 4, 4) 3px; /* Agrega un borde al contenedor */
+    border-radius: 2px; /* Agrega bordes redondeados al contenedor */
+  }
+  .form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="mensaje"] textarea {
+    width: 16em; /* Define el ancho máximo del input */
+    padding: 5px;
+    border: 1.5px solid #5c0b0b;
+    border-radius: 4px;
+  }
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+  button {
+    background-color: #0e0101; /* Gris claro */
+    border: none;
+    color: rgb(199, 25, 25);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 9px #999;
+  
+    /* Coloca estilos a tu botón */
+  }
+  button:hover {
+    background-color: #041d35;
+  }
+  
